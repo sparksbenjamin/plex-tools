@@ -6,5 +6,5 @@ do
   video_file="${filename%.*}"
   #output_video_file="${filename%.*}"
   #echo $output_video_file
-  echo "ffmpeg -i $filename -c:a aac -c:v copy output.m4a "$(fqfn%.*}".mp4";
+  echo "ffmpeg -i $filename -c:a aac -c:v copy $video_file";
 done
