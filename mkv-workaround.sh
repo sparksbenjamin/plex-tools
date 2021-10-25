@@ -6,7 +6,7 @@ do
   video_file="${filename%.*}"
   #fqfn = realpath $file
   #output = "${fqfn%.*}"
-  $output = $video_file + ".mp4"
+  $output = $video_file & ".mp4"
   echo $output
   #ffmpeg -i $fqfn -c:a aac -c:v copy output.m4a "$(fqfn%.*}".mp4;
 done
