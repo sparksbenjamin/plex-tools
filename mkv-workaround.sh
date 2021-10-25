@@ -4,7 +4,7 @@ do
   filename=$(basename "$file")
   extension="${filename##*.}"
   video_file="${filename%.*}"
-  output_video_file="${filename%.*}" + ".mp4"
+  output_video_file="${filename%.*}"
   #fqfn = realpath $file
   #output = "${fqfn%.*}"
   #output=$video_file + ".mp4"
