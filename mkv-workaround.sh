@@ -1,4 +1,4 @@
-list=`find $FILE_PATH -name "*.mkv"`
+list=`find $1 -name "*.mkv"`
 for file in $list
 do
   filename=$(basename "$file")
